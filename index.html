@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calcular propina</h1>
+    <form id="form">
+    <label>¿Cuánto fue tu factura?</label><br>
+    <input type="text" name="totalFactura" placeholder="Total de la factura" autofocus/><br>
+    <label>¿Cuántas personas comparten la factura?</label><br>
+    <input type="text" name="totalPersonas" placeholder="Nº de personas"/><br>
+    <label>¿Cómo estuvo tu servicio?</label><br>
+    <select id="select" name="select"><
+        <option value="0">Escoger</option>
+        <option value="1">Estupendo 20%</option>
+        <option value="2">Bueno 10%</option>
+        <option value="3">Malo 2%</option>
+    </select><br>
+    <div>
+        <p id="msg_error"></p>
+        <ul id="respuesta"></ul>
+    </div>
+    <button type="submit" name="btn">Calcular</button>
+    </form>
+
+    <template>
+        <ul>
+        <li>Monto de la propina: $ 10</li>
+        <li>Monto total: 10</li>
+        <li>Cada persona debe pagar: 10</li>
+        </ul>
+    </template>
+    <script src="main.js"></script>
+</body>
+</html>
